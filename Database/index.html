@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+        }
+        #container>div{
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>I am index page</h1>
+    <div id="container"></div>
+</body>
+</html>
+<script>
+    let url = `http://localhost:3000/`
+    async function fetchurl(){
+        let res = await fetch(`${url}smartTV`)
+        let out = await res.json()
+        display(out)
+    }
+    fetchurl()
+    function display(data){
+        data.forEach(item=>{
+            div = document.createElement("div")
+            img = document.createElement("img")
+            img.setAttribute("src",item.image)
+            title = document.createElement("h3")
+            title.textContent = item.title
+            description = document.createElement("p")
+            description.textContent= item.description;
+            dealprice = document.createElement("h5")
+            dealprice.textContent= item.dealprice;
+            offerprice = document.createElement("h5")
+            offerprice.textContent= item.offerprice
+            discount = document.createElement("p")
+            discount.textContent= item.discount
+            tag = document.createElement("p")
+            tag.textContent= item.tag
+            div.append(img,title,description,dealprice,offerprice,discount,tag)
+            document.querySelector("#container").append(div)
+        })
+    }
+</script>

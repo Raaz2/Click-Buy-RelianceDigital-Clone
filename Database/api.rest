@@ -1,0 +1,17 @@
+http://localhost:3000/trimmers
+
+### add trimmer
+POST http://localhost:3000/trimmers
+Content-Type: application/json
+
+ {
+      "title": "Havells BT5111C Men's Beard Trimmer",
+      "image": "https://www.reliancedigital.in/medias/Havells-BT5111C-Shavers-and-Trimmers-491666344-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0NTk4fGltYWdlL2pwZWd8aW1hZ2VzL2g0ZC9oNDIvOTU5NTIxMzE4NTA1NC5qcGd8Y2Y4YmMxZWE4NDM0YmRmMDllZjEzZWRkOTkzMGI4MTFhNDE4NTQxMmU1MjBlMDkwYzhlYmYxMTExOWQ5NjgwYw",
+      "brand": "Hindware",
+      "dealprice": "899.00",
+      "offerprice": "1,395.00",
+      "discount": "36%(₹496)",
+      "tag": "LIMITED TIME OFFER ",
+      "description": "Washable Head, LED battery indicator"
+    }
+
