@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    #main{
+        border: 2px solid red;
+        display: flex;
+       
+    }
+    #main > span{
+        width:850px;
+        /* border: 2px solid purple; */
+        padding-left: 30px;
+    }
+    #login{
+        /* border: 2px solid green; */
+        width: 417px;
+        height: 251px;
+        margin-left: 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    }
+    #main > span > img{
+        width: 100%;
+    }
+    #first {
+        height: 55px;
+        padding: 16px 24px 16px 24px;
+        background-color: #f9fafd ;
+    }
+    #second{
+       /* border: 0.5px solid orangered; */
+       padding: 24px 25px 56px 23px;
+       width: 417px;
+       /* height: 196px; */
+    }
+    #input{
+       display: block;
+       height: 42px;
+       width: 369px;
+       border-radius: 3px;
+       padding: 8px 16px 8px 16px;
+       border:  1px solid #D8E2EF 
+    }
+    #btn{
+        height: 42px;
+        width: 369px;
+        color: #FFFFFF;
+        background-color: #e42529;
+        border: 0px;
+        margin: 28px 0 0 0;
+        border-radius: 3px;
+    }
+
+</style>
+<body>
+    <div id="main">
+        <span>
+            <img src="https://www.reliancedigital.in/akamai/images/mobile/Login-banner.jpeg" alt="image">
+        </span>
+        <div id="login">
+            <div id="first">
+                Login / Register
+            </div>
+            
+            <div id="second">
+                <input type="number" placeholder="Enter Mobile Number" id="input"  min="1" max="5">
+                <button id="btn">PROCEED</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    let btn = document.getElementById("btn")
+    btn.addEventListener("click",()=>{
+        localStorage.setItem("user",JSON.stringify())
+    })
+</script>
+</html>
