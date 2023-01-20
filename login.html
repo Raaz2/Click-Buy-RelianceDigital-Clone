@@ -25,11 +25,14 @@
     }
     #login{
         /* border: 2px solid green; */
+        
+       
+    }
+    #form_div{
         width: 417px;
         height: 251px;
         margin-left: 30px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-        
     }
     #main span img{
         width: 100%;
@@ -54,7 +57,8 @@
        width: 369px;
        border-radius: 3px;
        padding: 8px 16px 8px 16px;
-       border:  1px solid #D8E2EF 
+       border:  1px solid #D8E2EF
+        
     }
     #btn:hover{
         cursor: pointer;
@@ -70,6 +74,14 @@
         border-radius: 3px;
         
     }
+    #mandatry{
+        line-height: 14px;
+        color: #D32F2F;
+        padding: 0 0 0 4px;
+        font-size: 11.3px;
+        margin: 2px 0 0 0;
+
+    }
 
 </style>
 <body>
@@ -77,38 +89,61 @@
         <span>
             <img src="https://www.reliancedigital.in/akamai/images/mobile/Login-banner.jpeg" alt="image">
         </span>
+    <div id="form_div">
         <form id="login">
             <h5 id="first">
                 Login / Register
             </h5>
             
             <div id="second">
+                <p id="verification"></p>
+                <p id="text"></p>
+                <p id="num"></p>
                 <input type="tel" placeholder="Enter Mobile Number" id="input" pattern="[0-9]{10}" required />
+                <p id="mandatry"></p>
                 <input type="submit" value="PROCEED" id="btn" />
             </div>
         </form>
     </div>
+    </div>
       
 </body>
 <script>
-    let data = []
-    let num = document.getElementById("input")
+    // let data = []
+    // let num = document.getElementById("input")
+    let mandatry = document.getElementById("mandatry")
+    let form = document.getElementById("login")
+    let verification = document.getElementById("verification")
+    let text = document.getElementById("text")
+    let num = document.getElementById("num")
 
-    let proceed = document.getElementById("login")
-
+    let proceed = document.getElementById("btn")
+   
+    
     proceed.addEventListener("click",(e)=>{
         e.preventDefault();
-        if(input.value != null){
-                let inputnum = num.value
+        let LSData = JSON.parse(localStorage.getItem("user"))
+    
+        if(LSData == null && form.input.value != "" && form.input.value.length == 10){
+            // let inputnum = num.value
+            alert('jj')
             let userData = {
-                number: inputnum
+            number: form.input.value
             }
-        data.push(userData)
+        // data.push(userData)
         localStorage.setItem("user",JSON.stringify(userData))
-        window.location.replace("file:///C:/Users/student/Desktop/Projects/puny-corn-6420/register.html");
-        console.log(inputnum)
-        }
         
+        window.location.href = "file:///C:/Users/student/Desktop/Projects/puny-corn-6420/register.html"
+        // console.log(inputnum)
+        } else if(LSData.number == form.input.value){
+            verification.innerText = "OTP Verification"
+            text.innerText = "Please enter the OTP sent to your mobile number"
+            num.innerText = form.input.value    
+            // input.style.color = "border:  1px solid #D32F2F"
+        } else {
+            mandatry.innerText ="Mandatory fields cannot be empty"
+        }
+
     })
 </script>
 </html>
