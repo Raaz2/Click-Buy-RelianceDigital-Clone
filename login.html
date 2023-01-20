@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    #main{
+        border: 2px solid red;
+        display: flex;
+       
+    }
+    #main > span{
+        width:850px;
+        /* border: 2px solid purple; */
+        padding-left: 30px;
+    }
+    #login{
+        /* border: 2px solid green; */
+        width: 417px;
+        height: 251px;
+        margin-left: 30px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        
+    }
+    #main span img{
+        width: 100%;
+    }
+    #main span img:hover{
+        cursor: pointer;
+    }
+    #first {
+        height: 55px;
+        padding: 16px 24px 16px 24px;
+        background-color: #f9fafd ;
+    }
+    #second{
+       /* border: 0.5px solid orangered; */
+       padding: 24px 25px 56px 23px;
+       width: 417px;
+       /* height: 196px; */
+    }
+    #input{
+       display: block;
+       height: 42px;
+       width: 369px;
+       border-radius: 3px;
+       padding: 8px 16px 8px 16px;
+       border:  1px solid #D8E2EF 
+    }
+    #btn:hover{
+        cursor: pointer;
+        background-color: #cf2124;
+    }
+    #btn{
+        height: 42px;
+        width: 369px;
+        color: #FFFFFF;
+        background-color: #e42529;
+        border: 0px;
+        margin: 28px 0 0 0;
+        border-radius: 3px;
+        
+    }
+
+</style>
+<body>
+    <div id="main">
+        <span>
+            <img src="https://www.reliancedigital.in/akamai/images/mobile/Login-banner.jpeg" alt="image">
+        </span>
+        <form id="login">
+            <h5 id="first">
+                Login / Register
+            </h5>
+            
+            <div id="second">
+                <input type="tel" placeholder="Enter Mobile Number" id="input" pattern="[0-9]{10}" required />
+                <input type="submit" value="PROCEED" id="btn" />
+            </div>
+        </form>
+    </div>
+      
+</body>
+<script>
+    let data = []
+    let num = document.getElementById("input")
+
+    let proceed = document.getElementById("login")
+
+    proceed.addEventListener("click",(e)=>{
+        e.preventDefault();
+        if(input.value != null){
+                let inputnum = num.value
+            let userData = {
+                number: inputnum
+            }
+        data.push(userData)
+        localStorage.setItem("user",JSON.stringify(userData))
+        window.location.replace("file:///C:/Users/student/Desktop/Projects/puny-corn-6420/register.html");
+        console.log(inputnum)
+        }
+        
+    })
+</script>
+</html>
