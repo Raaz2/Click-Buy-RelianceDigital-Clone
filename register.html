@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<style>
+        *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: Roboto,"system ui", sans-serif;
+    }
+    #main{
+        border: 2px solid red;
+        padding: 40px;
+       
+    }
+    #login{
+        /* border: 2px solid green; */
+        width: 508px;
+        margin: auto;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        
+    }
+    #first {
+        height: 55px;
+        padding: 16px 24px 16px 24px;
+        background-color: #f9fafd ;
+    }
+    #second{
+       /* border: 0.5px solid orangered; */
+       padding: 24px 25px 56px 23px;
+       height: 527px;
+       /* width: 417px; */
+       /* height: 196px; */
+    }
+    .input{
+       display: block;
+       height: 42px;
+       width: 460px;
+       border-radius: 3px;
+       padding: 8px 16px 8px 16px;
+       border:  1px solid #D8E2EF;
+       
+    }
+    #firstTwo{
+        margin-bottom:  25px;
+    }
+    .alert{
+        font-size:12px;
+        color:#666666;
+        line-height: 14.4px;
+        word-spacing: 0px;
+        margin: 4px 0 -4px 4px;
+    }
+    #verify{
+        width: 143px;
+        height: 36px;
+        color: #D9534f;
+        border:  1px solid #D9534f;
+        border-radius: 3px;
+        background-color: #FFFFFF;
+        margin: 28px 0 16px 0;
+        padding: 0 12px 0 12px;
+        font-size: 12.3px;
+        font-weight: 600;
+    }
+    #number{
+        margin-top: 20px;
+    }
+    #btn{
+        height: 42px;
+        width: 460px;
+        color: #FFFFFF;
+        background-color: #e42529;
+        border: 0px;
+        margin: 28px 0 0 0;
+        border-radius: 3px;
+    }
+    #register {
+        text-align: center;
+        font-size:12px;
+        color:#262424;
+        word-spacing: 0px;
+        text-transform: none;
+        margin-top: 15px;
+        line-height: 22px;
+    }
+    a{
+        text-decoration: none;
+        font-size:12px;
+        color: #D9534f;
+        font-weight: 600;
+        line-height: 22px;
+    }
+
+</style>
+<body>
+<div id="main">
+    <form id="login">
+        <h5 id="first">
+            Register New Account
+        </h5>
+        
+        <div id="second">
+            <input type="text" placeholder="First Name*" class="input" id="firstTwo" required>
+            <input type="text" placeholder="Last Name*" class="input" id="firstTwo" required>
+            <input type="email" placeholder="Email Address*" class="input" required>
+            <p class="alert">Your email address will be used to send order invoice, order updates etc.</p>
+
+            <input type="submit" value="VERIFY EMAIL" id="verify">
+
+            <input type="email" placeholder="Mobile Number*" class="input" id="number">
+            <p class="alert">Your mobile number will be used to avail benefits such as Jio Mart Cashback and ROne Loyality Points and receive quick notifications.</p>
+            <input type="submit" value="PROCEED" id="btn">
+            <p id="register">Already Registered? <a href="#">LOGIN</a></p>
+        </div>
+    </form>
+</div>
+<script>
+     let LSData = JSON.parse(localStorage.getItem("user"))
+     let num = LSData.number
+     let mobile = document.getElementById("number")
+     mobile.value = num
+     console.log(num)
+
+</script>
+</body>
+</html>

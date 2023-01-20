@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <style>
     *{
@@ -28,11 +28,14 @@
         width: 417px;
         height: 251px;
         margin-left: 30px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        
     }
-    #main > span > img{
+    #main span img{
         width: 100%;
+    }
+    #main span img:hover{
+        cursor: pointer;
     }
     #first {
         height: 55px;
@@ -53,6 +56,10 @@
        padding: 8px 16px 8px 16px;
        border:  1px solid #D8E2EF 
     }
+    #btn:hover{
+        cursor: pointer;
+        background-color: #cf2124;
+    }
     #btn{
         height: 42px;
         width: 369px;
@@ -61,6 +68,7 @@
         border: 0px;
         margin: 28px 0 0 0;
         border-radius: 3px;
+        
     }
 
 </style>
@@ -69,22 +77,38 @@
         <span>
             <img src="https://www.reliancedigital.in/akamai/images/mobile/Login-banner.jpeg" alt="image">
         </span>
-        <div id="login">
-            <div id="first">
+        <form id="login">
+            <h5 id="first">
                 Login / Register
-            </div>
+            </h5>
             
             <div id="second">
-                <input type="number" placeholder="Enter Mobile Number" id="input"  min="1" max="5">
-                <button id="btn">PROCEED</button>
+                <input type="tel" placeholder="Enter Mobile Number" id="input" pattern="[0-9]{10}" required />
+                <input type="submit" value="PROCEED" id="btn" />
             </div>
-        </div>
+        </form>
     </div>
+      
 </body>
 <script>
-    let btn = document.getElementById("btn")
-    btn.addEventListener("click",()=>{
-        localStorage.setItem("user",JSON.stringify())
+    let data = []
+    let num = document.getElementById("input")
+
+    let proceed = document.getElementById("login")
+
+    proceed.addEventListener("click",(e)=>{
+        e.preventDefault();
+        if(input.value != null){
+                let inputnum = num.value
+            let userData = {
+                number: inputnum
+            }
+        data.push(userData)
+        localStorage.setItem("user",JSON.stringify(userData))
+        window.location.replace("file:///C:/Users/student/Desktop/Projects/puny-corn-6420/register.html");
+        console.log(inputnum)
+        }
+        
     })
 </script>
 </html>
