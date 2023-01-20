@@ -6,9 +6,15 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 .sticky {
     position: sticky;
     color: #FFFFFF;
+    top: 0px;
+    left: 0px;
 }
 
 .flex {
@@ -18,7 +24,7 @@
     height: 35px;
     align-items: center;
     color: #FFFFFF;
-    border: 1px solid rgb(241, 232, 232);
+    border: 0.5px solid rgb(241, 232, 232);
 }
 
 .div1 {
@@ -28,6 +34,10 @@
 
 .semibold {
     font-weight: bolder;
+}
+
+.margin {
+    margin-top: 15px;
 }
 
 .input {
@@ -69,8 +79,53 @@
     align-items: center;
 }
 
-.main {
+.main_section {
     height: 450px;
+    align-items: center;
+    background: rgb(247, 243, 243);
+    justify-content: center;
+    border: 10px solid white;
+    display: flex;
+}
+
+.main{
+    width: 25%;
+    position: fixed;
+}
+
+.checkout{
+    width: 25%;
+    height: 280px;
+    margin-left: 980px;
+}
+
+.checkout_btn{
+    width: 100%;
+    background-color: rgb(228, 37, 41);
+    border: none;
+    height: 35px;
+    color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.payMent {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.continue_shopping {
+    margin-top: 40px;
+    width: 235px;
+    height: 40px;
+    border: none;
+    background-color: rgb(228, 37, 41);
+    color: #FFFFFF;
+} 
+
+.payment_output h6 {
+    color: white;
 }
 
 .footer {
