@@ -26,7 +26,7 @@
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         
     }
-    #first {
+    #heading {
         height: 55px;
         padding: 16px 24px 16px 24px;
         background-color: #f9fafd ;
@@ -48,6 +48,7 @@
     }
     #first{
         margin-bottom:  25px;
+       
         
     }
     #last{
@@ -86,6 +87,15 @@
         padding: 0 12px 0 12px;
         font-size: 12.3px;
         font-weight: 600;
+    }
+    #verify:hover{
+        cursor: pointer;
+        color: #cf2124;
+        border:  1px solid #cf2124;
+    }
+    #btn:hover{
+        cursor: pointer;
+        background-color: #cf2124;
     }
     #invalid{
         line-height: 14px;
@@ -142,7 +152,7 @@
 <div id="main">
     <div id="form_div">
     <form id="login">
-        <h5 id="first">
+        <h5 id="heading">
             Register New Account
         </h5>
         
@@ -178,7 +188,7 @@
     let alert_text = document.getElementById("alert")
     let proceed_btn = document.getElementById("btn")
 
-     let LSData = JSON.parse(localStorage.getItem("user"))
+     let LSData = JSON.parse(localStorage.getItem("user")) || []
      let num = LSData.number
      let mobile = document.getElementById("number")
      mobile.value = num
@@ -204,7 +214,7 @@
                 verify_btn.style.display = "none"
                 otp_submit.innerText = "SUBMIT OTP"
                 otp_submit.style.display = "block"
-            },0)
+            },100)
         }
     })
 
@@ -212,8 +222,9 @@
         e.preventDefault();
         otp = '0591'
         // if(otp == formData.otp_submit.value){
-            if(otp == "0591"){
+            if(otp == input_otp.value){
             console.log("yes");
+            console.log(input_otp.value)
             // alert_text.innerHTML = <p class="alert" id="alert"><i class="fa-solid fa-circle-check"></i>Email address verified</p>
             alert_text.style.color = "green"
             enter_otp.style.display = "none"
@@ -230,6 +241,7 @@
            
         }
     })
+    
     proceed_btn.addEventListener("click",(e)=>{
         e.preventDefault();
        
@@ -239,10 +251,11 @@
             lastName: formData.last.value,
             email: formData.email.value
         }
+        LSData.push(userData)   
         console.log(userData)
         alert('Register successfully')
-        localStorage.setItem("user",JSON.stringify(userData))
-        // window.location.href = "file:///C:/Users/student/Desktop/Projects/puny-corn-6420/login.html"
+        localStorage.setItem("user",JSON.stringify(LSData))
+        window.location.href = "file:///C:/Users/student/Desktop/Projects/puny-corn-6420/login.html"
         
 
     })

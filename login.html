@@ -32,7 +32,7 @@
         width: 417px;
         height: 251px;
         margin-left: 30px;
-        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        
     }
     #main span img{
         width: 100%;
@@ -46,9 +46,10 @@
         background-color: #f9fafd ;
     }
     #second{
-       /* border: 0.5px solid orangered; */
+       border: 0.5px solid orangered;
        padding: 24px 25px 56px 23px;
        width: 417px;
+       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
        /* height: 196px; */
     }
     #input{
@@ -68,7 +69,7 @@
         height: 42px;
         width: 369px;
         color: #FFFFFF;
-        background-color: #e42529;
+        background-color: #D32F2F;
         border: 0px;
         margin: 28px 0 0 0;
         border-radius: 3px;
@@ -81,6 +82,55 @@
         font-size: 11.3px;
         margin: 2px 0 0 0;
 
+    }
+    #verification{
+        font-size: 15px;
+        font-weight: 600;
+        color: #333333;
+    }
+    #text{
+        font-size: 14px;
+        color: #333333;
+        margin: 20px 0 20px 0;
+    }
+    .btn{
+        font-size: 14px;
+        font-weight: 600;
+        width: 181px;
+        height: 42px;
+        border:#d08b8b;
+        margin: 28px 0 0 0;
+        padding: 0 12px 0 12px;
+        display: none;
+        
+        border-radius: 3px;
+        color: #FFFFFF;
+
+    }
+    #login_btn{
+        background-color:#D32F2F;
+    }
+    #back_btn{
+        color:#D32F2F;
+        border:1px solid #D32F2F;
+        background-color:#FFFFFF;
+    }
+    #input_otp{
+       height: 42px;
+       width: 369px;
+       border-radius: 3px;
+       padding: 8px 16px 8px 16px;
+       border:  1px solid #D8E2EF;
+       margin-top:25px;
+    }
+    #login_btn{
+        cursor: pointer;
+        background-color: #cf2124;
+    }
+    #back_btn{
+        cursor: pointer;
+        color: #cf2124;
+        border:  1px solid #cf2124;
     }
 
 </style>
@@ -100,8 +150,11 @@
                 <p id="text"></p>
                 <p id="num"></p>
                 <input type="tel" placeholder="Enter Mobile Number" id="input" pattern="[0-9]{10}" required />
+                <div id="otp_input_div"></div>
                 <p id="mandatry"></p>
                 <input type="submit" value="PROCEED" id="btn" />
+                <input type="submit" value="LOGIN" id="login_btn" class="btn" />
+                <input type="submit" value="Back" id="back_btn" class="btn" />
             </div>
         </form>
     </div>
@@ -116,34 +169,72 @@
     let verification = document.getElementById("verification")
     let text = document.getElementById("text")
     let num = document.getElementById("num")
+    let login_btn = document.getElementById("login_btn")
+    let back_btn = document.getElementById("back_btn")
+    let btn = document.getElementById("btn")
+    let otp_submit = document.getElementById("otp_submit")
+    let input_num = document.getElementById("input");
+
 
     let proceed = document.getElementById("btn")
    
     
     proceed.addEventListener("click",(e)=>{
         e.preventDefault();
-        let LSData = JSON.parse(localStorage.getItem("user"))
+        let LSData = JSON.parse(localStorage.getItem("user")) || []
     
-        if(LSData == null && form.input.value != "" && form.input.value.length == 10){
+        if(form.input.value != "" && form.input.value.length == 10){
             // let inputnum = num.value
             alert('jj')
             let userData = {
             number: form.input.value
             }
-        // data.push(userData)
-        localStorage.setItem("user",JSON.stringify(userData))
+            LSData.push(userData)
+
+        localStorage.setItem("user",JSON.stringify(LSData))
         
         window.location.href = "file:///C:/Users/student/Desktop/Projects/puny-corn-6420/register.html"
         // console.log(inputnum)
         } else if(LSData.number == form.input.value){
             verification.innerText = "OTP Verification"
-            text.innerText = "Please enter the OTP sent to your mobile number"
-            num.innerText = form.input.value    
+            text.innerText = `Please enter the OTP sent to your mobile number ${form.input.value}`
+            btn.style.width = "185px"
+            btn.style.display = "none"
+            back_btn.style.display = "flex"
+            login_btn.style.display = "flex"
+            input_num.style.display = "none"
+            alert("9987")
+            let input = document.createElement('input');
+                input.placeholder = 'Enter OTP*';
+                input.setAttribute("id","input_otp")
+                otp_input_div.append(input);    
+                
+            // num.innerText = form.input.value    
             // input.style.color = "border:  1px solid #D32F2F"
         } else {
             mandatry.innerText ="Mandatory fields cannot be empty"
         }
 
+    })
+
+    login_btn.addEventListener("click",(e)=>{
+        e.preventDefault();
+        if(input_otp.value == "9987"){
+            window.location.href = "https://www.reliancedigital.in/login"
+        } else {
+            console.log(input_otp.value)
+        }
+    })
+
+    back_btn.addEventListener("click",(e)=>{
+        e.preventDefault();
+        btn.style.width = "369px"
+        btn.style.display = "block"
+        input_otp.style.display = "none"
+        input_num.style.display = "block"
+        input_num.value = null
+        back_btn.style.display = "none"
+        login_btn.style.display = "none"
     })
 </script>
 </html>
