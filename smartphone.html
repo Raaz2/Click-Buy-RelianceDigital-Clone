@@ -76,6 +76,26 @@
             text-decoration: none;
             color: white;
         }
+        .btnDiv{
+            display: flex;
+        }
+        h3{
+            font-size: 15px;
+        }
+        .card>img{
+            transition: transform .73s;
+        }
+        .card>img:hover{
+            -ms-transform: scale(.1); 
+            -webkit-transform: scale(.1);
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .header2 img{
+            width: 150px;
+            padding-left: 50px;
+        }
+
     </style>
 </head>
 
@@ -96,14 +116,14 @@
     <header class="sticky">
         <header class="header2 ">
             <div>
-                <img src="" alt="">
+                <a href="landingPage.html"><img src="click&BuyLogonew11.png" alt=""></a>
             </div>
             <div class="input">
                 <input id="input" type="text" class="suggestion__input searchPanel__searchBox"
                     placeholder="Find your favorite products" autocomplete="off" value="">
             </div>
             <div class="login">
-                <h3 class="cursor">Select Your Pin Code</h3>
+                <a href="Cart page/cart.html"><h3 class="cursor">Cart</h3></a>
                 <a class="cursor" href="./login.html"><h3>Log In</h3></a>
             </div>
         </header>
@@ -191,7 +211,8 @@
     fetchurl()
     function display(data) {
         data.forEach(item => {
-            div = document.createElement("div")
+            div = document.createElement("div");
+            div.classList.add("card");
             img = document.createElement("img")
             img.setAttribute("src", item.image)
             title = document.createElement("h3")
@@ -238,9 +259,15 @@
             btn1.textContent = "ADD TO CART"
             btn1.setAttribute("id", "redbtn")
             btn2 = document.createElement('button')
-            btn2.textContent = "BUY NOW"
-            btn2.setAttribute("id", "ylwbtn")
-            div.append(img, title, dealprice, offerprice, discount, tag, btn1, btn2)
+            btn2.textContent = "BUY NOW";
+            btn2.setAttribute("id", "ylwbtn");
+            btn2.addEventListener("click",()=>{
+                window.location.href="./Cart page/checkout.html"
+            })
+            btnDiv=document.createElement("div");
+            btnDiv.classList.add("btnDiv");
+            btnDiv.append(btn1,btn2);
+            div.append(img, title, dealprice, offerprice, discount, tag,btnDiv)
             document.querySelector("#container").append(div)
         })
     }

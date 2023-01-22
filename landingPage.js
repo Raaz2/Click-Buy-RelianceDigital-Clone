@@ -90,7 +90,7 @@ $(document).ready(function(){
   // carouselNew
 const gap=100;
 
-const carouselN=document.getElementById("carouselN"),
+let carouselN=document.getElementById("carouselN"),
  contentN=document.getElementById("contentN"),
   next=document.getElementById("next"),
   prev=document.getElementById("prev");
@@ -112,4 +112,7 @@ prev.addEventListener("click", e => {
 
 let width=carouselN.offsetWidth;
 window.addEventListener("resize", e => (width = carouselN.offsetWidth));
+
+
+
 
