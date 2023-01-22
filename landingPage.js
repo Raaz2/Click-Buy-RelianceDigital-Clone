@@ -85,6 +85,8 @@ $(document).ready(function(){
     });
   });
 
+
+
   // carouselNew
 const gap=100;
 

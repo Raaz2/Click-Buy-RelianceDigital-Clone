@@ -137,9 +137,7 @@
     font-size: 18px;
     padding-top: 20px;
   }
-  /* #contentN p{
-    
-  } */
+  
   #V{
     display: block;
     margin: auto;
@@ -157,6 +155,39 @@
   #prev p,#next p{
     padding: 10px 0px 0px 0px;
   }
+  #caraN1{
+    background-color: white;
+  }
+  #caraHeading1 button{
+    background-color:#1A237E ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 27px;
+    margin-left: 20px;
+    margin-top: 22px;
+  }
+  #caraHeading1{
+    display: flex;
+  }
+  #contentN button{
+  color: #388E3C;
+  background-color: #DCEDC8;
+  border: 1px solid #388E3C;
+  border-radius: 5px;
+  width: 120px;
+  height: 19px;
+  }
+  .pHead{
+    color: #1A237E;
+    font-weight: 600;
+    text-align: left;
+  }
+  h4{
+    padding: 20px 0px 20px 100px;
+  }
+
   
   
  
