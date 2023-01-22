@@ -54,4 +54,109 @@
   #ElectronicsDiv div{
     margin:10px 0px
   }
+  
+  /* new carouselN */
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  #wrapperN{
+    width: 100%;
+    max-width: 1300px;
+    position: relative;
+    margin: auto;
+  }
+  
+  #carouselN{
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+  
+  #carouselN::-webkit-scrollbar{
+    height: 0;
+  }
+  
+  #prev,#next {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background:white;
+    border: none;
+    padding: 8px;
+    width: 40px;
+    height: 60px;
+    outline: 0;
+    cursor: pointer;
+    position: absolute;
+    display: inline-block;
+    
+  }
+  
+  #prev {
+    top: 40%;
+    left: 0;
+    transform: translate(50%, -50%);
+    display: none;
+  }
+  
+  #next{
+    top: 40%;
+    right: 0;
+    transform: translate(-50%, -50%);
+  }
+  
+  #contentN{
+    display: grid;
+    grid-gap: 100px;
+    grid-auto-flow: column;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  .itemN{
+    width: 180px;
+    height: 180px;
+    /* background: whitesmoke; */
+    cursor: pointer;
+    transition: transform .73s;
+  }
+  .itemN:hover{
+    -ms-transform: scale(.9); 
+  -webkit-transform: scale(.9);
+  transform: scale(1.1);
+  cursor: pointer;
+  }
+  #caraN p,#caraN h2{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 20px;
+  }
+  /* #contentN p{
+    
+  } */
+  #V{
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: #1A237E;
+    border: none;
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+  }
+  #caraN,#caraN1{
+    margin: 20px 0px;
+  }
+  #prev p,#next p{
+    padding: 10px 0px 0px 0px;
+  }
+  
+  
  
