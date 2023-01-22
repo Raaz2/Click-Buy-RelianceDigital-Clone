@@ -1,7 +1,7 @@
 http://localhost:3000/trimmers
 
 ### add trimmer
-POST http://localhost:3000/trimmers
+POST http://localhost:3000/smartTV
 Content-Type: application/json
 
  {
