@@ -5,8 +5,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cart.css">
-    <title>Reliance Digital</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./Cart page/cart.css">
+    <style>
+        #container {
+            margin: 10px 5px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        #container>div>img {
+            height: 180px;
+            width: 180px;
+            margin: auto;
+            display: flex;
+        }
+
+        #container>div {
+            line-height: 2.3;
+            gap: 20px;
+            padding: 20px;
+            height: 430px;
+            /* width: 290px; */
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+
+        #redbtn {
+            padding: 20px;
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            border: 1px solid red;
+            width: 150px;
+        }
+
+        #ylwbtn {
+            padding: 20px;
+            background-color: orangered;
+            color: white;
+            font-weight: bold;
+            border: 1px solid orangered;
+            margin-left: 20px;
+            width: 150px;
+        }
+
+        #tag {
+            margin-bottom: 5px;
+            background-color: white;
+            border: 1px solid rgb(49, 129, 46);
+            border-radius: 15px;
+            width: 150px;
+            padding: 5px;
+            color: rgb(49, 129, 46);
+            font-size: 14px;
+        }
+
+        .dp {
+            color: darkblue;
+            font-weight: 700;
+        }
+
+        .op {
+            text-decoration: line-through;
+            color: gray;
+            font-weight: 700;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
@@ -20,7 +90,7 @@
             <div class="semibold cursor">SERVICE GUARANTEE</div>
             <div class="semibold cursor">UNMATCHED NETWORK</div>
             <div class="semibold cursor">Find a store</div>
-            <div class="semibold cursor">Contack us</div>
+            <div class="semibold cursor">Contact us</div>
         </div>
     </header>
     <header class="sticky">
@@ -34,12 +104,12 @@
             </div>
             <div class="login">
                 <h3 class="cursor">Select Your Pin Code</h3>
-                <h3 class="cursor">Login</h3>
+                <a class="cursor" href="./login.html"><h3>Log In</h3></a>
             </div>
         </header>
         <header class="header3 ">
             <ul>
-                <li class="cursor"><a href="../smartphone.html">MOBILES & TABLETS</a> </li>
+                <li class="cursor">MOBILES & TABLETS</li>
                 <li class="cursor">TELEVISIONS</li>
                 <li class="cursor">AUDIO</li>
                 <li class="cursor">HOME APPLIANCES</li>
@@ -51,57 +121,7 @@
             </ul>
         </header>
     </header>
-        <!-- cart section strat from here  -->
-        <div class="cart-section">
-            <div class="seperate">
-                <div class="cart">
-                    <div class="cart-qty">
-                        <div><h4>Total Cart Items: <span id="ttl-prdt"></span></h4></div>
-                        <div><h4>Shipping to 500070<i class="fa-solid fa-location-dot"></i> </h4></div>
-                    </div>
-                    <div class="cart-product">
-                        <!------------------ all data should be append here  -------------->
-    
-                    </div>
-                </div>
-    
-                <!-- checkout section  -->
-                <div class="checkout-section">
-                    <div class="btn">
-                        <button onclick="placed()">checkout</button>
-                    </div>
-                    <div class="checkout-detail">
-                        <input type="text" name="" id="coupon" placeholder="Coupon Code">
-                        <button class="apply-code">apply</button>
-                        <hr class="hr">
-                        <div id="price-detail">
-                            <div>
-                                <ul>
-                                    <li class="price-list">PRICE DETAILS</li>
-                                    <li>Coupon </li>
-                                    <li>Delivery Charges</li>
-                                    <hr class="hr">
-    
-                                    <li class="ttl">Amount Payable</li>
-                                </ul>
-                            </div>
-                            <div>
-                                <ul class="rupee">
-                                    <li>In Rupees</li>
-                                    <li id="applied" style="font-size: 17px;">&nbsp</li>
-                                    <li id="p" style="font-size: 20px; color: rgb(36, 186, 36);">Free</li> 
-                                    <hr class="hr">
-                                    <li id="total"></li>  
-                                </ul>
-                                <hr id="hr">
-                            </div>
-                        </div>
-    
-                    </div>
-                    <h6>Safe and Secure Payments. Easy returns. 100% Authentic products.</h6>
-                </div>
-            </div>
-        </div>
+    <div id="container"></div>
     <footer class="footer">
         <div class="terms">
             <ul>
@@ -160,4 +180,68 @@
 </body>
 
 </html>
-<script src="cart2.js"></script>
+<script>
+    let cartdata = JSON.parse(localStorage.getItem("cart")) || []
+    let url = `http://localhost:3000/`
+    async function fetchurl() {
+        let res = await fetch(`${url}smartphone`)
+        let out = await res.json()
+        display(out)
+    }
+    fetchurl()
+    function display(data) {
+        data.forEach(item => {
+            div = document.createElement("div")
+            img = document.createElement("img")
+            img.setAttribute("src", item.image)
+            title = document.createElement("h3")
+            title.textContent = item.title
+
+            // description = document.createElement("p")
+            // description.textContent= item.description
+
+            dealprice = document.createElement("p")
+            dealprice.textContent =  item.dealprice;
+            dealprice.setAttribute("class", "dp")
+
+            offerprice = document.createElement("span")
+            offerprice.textContent = "₹" + item.offerprice
+            offerprice.setAttribute("class", "op")
+            discount = document.createElement("i")
+            discount.textContent = `${item.discount}`
+            tag = document.createElement("p")
+            tag.textContent = item.tag
+            tag.setAttribute("id", "tag")
+
+            btn1 = document.createElement('button')
+            btn1.addEventListener("click", () => {
+                let already = false;
+                for (let i = 0; i < cartdata.length; i++) {
+                    if (cartdata[i].id == item.id) {
+                        already = true;
+                        break;
+                    }
+                }
+
+                if (already) {
+                    alert("Product Already in Cart")
+                } else {
+                    let temp=[]
+        temp.push(item)
+        temp.push(1)
+
+        cartdata.push(temp)
+                    localStorage.setItem("cart", JSON.stringify(cartdata))
+                    alert("Product Added to Cart Successfully")
+                }
+            })
+            btn1.textContent = "ADD TO CART"
+            btn1.setAttribute("id", "redbtn")
+            btn2 = document.createElement('button')
+            btn2.textContent = "BUY NOW"
+            btn2.setAttribute("id", "ylwbtn")
+            div.append(img, title, dealprice, offerprice, discount, tag, btn1, btn2)
+            document.querySelector("#container").append(div)
+        })
+    }
+</script>
