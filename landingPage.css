@@ -137,9 +137,7 @@
     font-size: 18px;
     padding-top: 20px;
   }
-  /* #contentN p{
-    
-  } */
+  
   #V{
     display: block;
     margin: auto;
@@ -156,6 +154,9 @@
   }
   #prev p,#next p{
     padding: 10px 0px 0px 0px;
+  }
+  #caraN1{
+    background-color: white;
   }
   
   
