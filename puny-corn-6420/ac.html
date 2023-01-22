@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Cart page/cart.css">
+    <style>
+        #container {
+            margin: 10px 5px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+
+        #container>div>img {
+            height: 180px;
+            width: 180px;
+            margin: auto;
+            display: flex;
+        }
+
+        #container>div {
+            line-height: 2.3;
+            gap: 20px;
+            padding: 20px;
+            height: 430px;
+            /* width: 290px; */
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+
+        #redbtn {
+            padding: 20px;
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            border: 1px solid red;
+            width: 150px;
+        }
+
+        #ylwbtn {
+            padding: 20px;
+            background-color: orangered;
+            color: white;
+            font-weight: bold;
+            border: 1px solid orangered;
+            margin-left: 20px;
+            width: 150px;
+        }
+
+        #tag {
+            margin-bottom: 5px;
+            background-color: white;
+            border: 1px solid rgb(49, 129, 46);
+            border-radius: 15px;
+            width: 150px;
+            padding: 5px;
+            color: rgb(49, 129, 46);
+            font-size: 14px;
+        }
+
+        .dp {
+            color: darkblue;
+            font-weight: 700;
+        }
+
+        .op {
+            text-decoration: line-through;
+            color: gray;
+            font-weight: 700;
+
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .btnDiv{
+            display: flex;
+        }
+        h3{
+            font-size: 15px;
+        }
+        .card>img{
+            transition: transform .73s;
+        }
+        .card>img:hover{
+            -ms-transform: scale(.1); 
+            -webkit-transform: scale(.1);
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .header2 img{
+            width: 150px;
+            padding-left: 50px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="flex ">
+        <div class="border div1 flex">
+            <div class="semibold cursor">OUR BRAND PROMISE</div>
+            <div class="semibold cursor">EASY RETURN</div>
+        </div>
+        <div class="flex border div2">
+            <div class="semibold cursor">NEXT DAY DELIVERY</div>
+            <div class="semibold cursor">SERVICE GUARANTEE</div>
+            <div class="semibold cursor">UNMATCHED NETWORK</div>
+            <div class="semibold cursor">Find a store</div>
+            <div class="semibold cursor">Contact us</div>
+        </div>
+    </header>
+    <header class="sticky">
+        <header class="header2 ">
+            <div>
+                <a href="landingPage.html"><img src="click&BuyLogonew11.png" alt=""></a>
+            </div>
+            <div class="input">
+                <input id="input" type="text" class="suggestion__input searchPanel__searchBox"
+                    placeholder="Find your favorite products" autocomplete="off" value="">
+            </div>
+            <div class="login">
+                <h3 class="cursor">Select Your Pin Code</h3>
+                <a class="cursor" href="./login.html"><h3>Log In</h3></a>
+            </div>
+        </header>
+        <header class="header3 ">
+            <ul>
+                <a href="smartphone.html"><li class="cursor">MOBILES & TABLETS</li></a>
+                <a href="TV.html"><li class="cursor">TELEVISIONS</li></a>
+                <a href="audio.html"><li class="cursor">AUDIO</li></a>
+                <a href="ac.html"><li class="cursor">HOME APPLIANCES</li></a>
+                <a href="computers.html"><li class="cursor">COMPUTERS</li></a>
+                <a href="camera.html"><li class="cursor">CAMERAS</li></a>
+                <a href="homeApp.html"><li class="cursor">KITCHEN APPLICANCES</li></a>
+                <a href="care.html"><li class="cursor">PERSONAL CARE</li></a>
+                <a href="access.html"><li class="cursor">ACCESSORIES</li></a>
+            </ul>
+        </header>
+    </header>
+    <div id="container"></div>
+    <footer class="footer">
+        <div class="terms">
+            <ul>
+                <li class="semibold margin">PRODUCT CATEGORIES</li>
+                <li class="margin cursor">Smartphones</li>
+                <li class="margin cursor">Laptops</li>
+                <li class="margin cursor">DSLR Cameras</li>
+                <li class="margin cursor">Televisions</li>
+                <li class="margin cursor">Air Conditioners</li>
+                <li class="margin cursor">Refrigerators</li>
+                <li class="margin cursor">Kitchen Appliances</li>
+                <li class="margin cursor">Accessories</li>
+                <li class="margin cursor">Personal Care & Grooming</li>
+            </ul>
+        </div>
+        <div class="terms">
+            <ul>
+                <li class="semibold margin">SITE INFO</li>
+                <li class="margin cursor">About Reliance Digital</li>
+                <li class="margin cursor">resQ Services</li>
+                <li class="margin cursor">Site Maps</li>
+                <li class="margin cursor">Gift Cards</li>
+                <li class="margin cursor">Corporate Enquires</li>
+                <li class="margin cursor">Contact US</li>
+            </ul>
+        </div>
+        <div class="terms">
+            <ul>
+                <li class="semibold margin">RESOURCE CENTRE</li>
+                <li class="margin cursor">Product Reviews</li>
+                <li class="margin cursor">Buying Guides</li>
+                <li class="margin cursor">How Tos</li>
+                <li class="margin cursor">Featured Stories</li>
+                <li class="margin cursor">Events & Happenings</li>
+                <li class="margin cursor">Nearest Store</li>
+            </ul>
+        </div>
+        <div class="terms">
+            <ul>
+                <li class="semibold margin">POLICIES</li>
+                <li class="margin cursor">Terms of Use</li>
+                <li class="margin cursor">FAQs</li>
+                <li class="margin cursor">Cancellation and Return Policy</li>
+                <li class="margin cursor">Pricing and Payments Policy</li>
+                <li class="margin cursor">Shipping and Delivery Policy</li>
+                <li class="margin cursor">Privacy Policy</li>
+                <li class="margin cursor">E-waste Recycling Policy</li>
+                <li class="margin cursor">EMI and Additional Cashback T&C</li>
+                <li class="margin cursor">RelianceOne Loyalty Program T&C</li>
+                <li class="margin cursor">Caution Notice</li>
+            </ul>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
+<script>
+    let cartdata = JSON.parse(localStorage.getItem("cart")) || []
+    let url = `http://localhost:3000/`
+    async function fetchurl() {
+        let res = await fetch(`${url}ac`)
+        let out = await res.json()
+        display(out)
+    }
+    fetchurl()
+    function display(data) {
+        data.forEach(item => {
+            div = document.createElement("div");
+            div.classList.add("card");
+            img = document.createElement("img")
+            img.setAttribute("src", item.image)
+            title = document.createElement("h3")
+            title.textContent = item.title
+
+            // description = document.createElement("p")
+            // description.textContent= item.description
+
+            dealprice = document.createElement("p")
+            dealprice.textContent =  item.dealprice;
+            dealprice.setAttribute("class", "dp")
+
+            offerprice = document.createElement("span")
+            offerprice.textContent = "₹" + item.offerprice
+            offerprice.setAttribute("class", "op")
+            discount = document.createElement("i")
+            discount.textContent = `${item.discount}`
+            tag = document.createElement("p")
+            tag.textContent = item.tag
+            tag.setAttribute("id", "tag")
+
+            btn1 = document.createElement('button')
+            btn1.addEventListener("click", () => {
+                let already = false;
+                for (let i = 0; i < cartdata.length; i++) {
+                    if (cartdata[i].id == item.id) {
+                        already = true;
+                        break;
+                    }
+                }
+
+                if (already) {
+                    alert("Product Already in Cart")
+                } else {
+                    let temp=[]
+        temp.push(item)
+        temp.push(1)
+
+        cartdata.push(temp)
+                    localStorage.setItem("cart", JSON.stringify(cartdata))
+                    alert("Product Added to Cart Successfully")
+                }
+            })
+            btn1.textContent = "ADD TO CART"
+            btn1.setAttribute("id", "redbtn")
+            btn2 = document.createElement('button')
+            btn2.textContent = "BUY NOW"
+            btn2.setAttribute("id", "ylwbtn")
+            btnDiv=document.createElement("div");
+            btnDiv.classList.add("btnDiv");
+            btnDiv.append(btn1,btn2);
+            div.append(img, title, dealprice, offerprice, discount, tag,btnDiv)
+            document.querySelector("#container").append(div)
+        })
+    }
+</script>

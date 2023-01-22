@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<style>a
+
+
+
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    #main{
+        border: 2px solid red;
+        display: flex;
+       margin-top: 30px; 
+    }
+    #main > span{
+        width:850px;
+        /* border: 2px solid purple; */
+        padding-left: 30px;
+    }
+    #login{
+        border: 2px solid green;
+        padding: 8px;
+        
+       
+    }
+    #form_div{
+        width: 417px;
+        height: 251px;
+        margin-left: 30px;
+        
+    }
+    #main span img{
+        width: 100%;
+    }
+    #main span img:hover{
+        cursor: pointer;
+    }
+    #first {
+        height: 55px;
+        padding: 16px 24px 16px 24px;
+        background-color: #f9fafd ;
+    }
+    #second{
+       /* border: 0.5px solid orangered; */
+       padding: 24px 25px 56px 23px;
+       width: 417px;
+       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+       /* height: 196px; */
+    }
+    #input{
+       display: block;
+       height: 42px;
+       width: 300px;
+       border-radius: 3px;
+       padding: 8px 16px 8px 16px;
+       border:  1px solid #D8E2EF
+        
+    }
+    #btn:hover{
+        cursor: pointer;
+        background-color: #cf2124;
+    }
+    #btn{
+        height: 42px;
+        width: 369px;
+        color: #FFFFFF;
+        background-color: #D32F2F;
+        border: 0px;
+        margin: 28px 0 0 0;
+        border-radius: 3px;
+        
+    }
+    #mandatry{
+        line-height: 14px;
+        color: #D32F2F;
+        padding: 0 0 0 4px;
+        font-size: 11.3px;
+        margin: 2px 0 0 0;
+
+    }
+    #verification{
+        font-size: 15px;
+        font-weight: 600;
+        color: #333333;
+    }
+    #text{
+        font-size: 14px;
+        color: #333333;
+        margin: 20px 0 20px 0;
+    }
+    .btn{
+        font-size: 14px;
+        font-weight: 600;
+        width: 181px;
+        height: 42px;
+        border:#d08b8b;
+        margin: 28px 0 0 0;
+        padding: 0 12px 0 12px;
+        display: none;
+        
+        border-radius: 3px;
+        color: #FFFFFF;
+
+    }
+    #login_btn{
+        background-color:#D32F2F;
+    }
+    #back_btn{
+        color:#D32F2F;
+        border:1px solid #D32F2F;
+        background-color:#FFFFFF;
+    }
+    #input_otp{
+       height: 42px;
+       width: 369px;
+       border-radius: 3px;
+       padding: 8px 16px 8px 16px;
+       border:  1px solid #D8E2EF;
+       margin-top:25px;
+    }
+    #login_btn{
+        cursor: pointer;
+        background-color: #cf2124;
+    }
+    #back_btn{
+        cursor: pointer;
+        color: #cf2124;
+        border:  1px solid #cf2124;
+    }
+
+
+</style>
+<body>
+
+
+<!-- header -->
+<div id="containerMain">
+    <div id="header">
+        <div class="top">
+           <p>Find a store |</p>
+           <p> Buying Guides |</p>
+           <p> Contact Us</p>
+       </div>
+      <div id="nav">
+        <div id="middle">
+            <a href="landingPage.html"><div class="logo"><img src="click&BuyLogonew11.png" alt="" style="height: 70px;"></div></a>
+                <div class="searchBar">
+                    <input type="search" placeholder="Find Your favorite Products" id="q">
+                     <button>&#128269</button>
+                 </div>
+ 
+             <div class="cart">
+                 <a href="Cart page/cart.html"><img src="https://icons8.com/icon/9720/shopping-cart" alt="" class="lgp"><p>Cart</p></a>
+                <a href=""><img src="https://simg.nicepng.com/png/small/136-1366211_group-of-10-guys-login-user-icon-png.png" alt="" class="lgp"><p>Login</p></a>
+            </div>
+            </div>
+             
+        
+            <div id="dropdownDiv">
+             <div class="dropdown">
+               <button class="dropbtn"><a href="smartphone.html">MOBILE & TABLETS</a></button>
+               
+              
+               
+             </div>
+             <div class="dropdown">
+                <button class="dropbtn"><a href="TV.html">TELEVISIONS</a></button>
+                <div class="dropdown-content">
+                 
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <button class="dropbtn"><a href="audio.html">AUDIO</a></button>
+                <div class="dropdown-content">
+                 
+                </div>
+              </div>
+
+              <div class="dropdown">
+                <button class="dropbtn"><a href="ac.html">HOME APPLIANCES</a></button>
+                <div class="dropdown-content">
+                 
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn"><a href="computers.html">COMPUTERS</a></button>
+                <div class="dropdown-content">
+                 
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn"><a href="camera.html">CAMERAS</a></button>
+                <div class="dropdown-content">
+                 
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn"><a href="homeApp.html">KITCHEN APPLIANCES</a></button>
+                <div class="dropdown-content">
+                 
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn"><a href="care.html">PERSONAL CARE</a></button>
+                <div class="dropdown-content">
+                 
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn"><a href="access.html">ACCESSORIES</a></button>
+                <div class="dropdown-content">
+                 
+                </div>
+              </div>
+            </div>
+      </div>
+
+    </div>
+
+
+
+    <div id="main">
+        <span>
+            <img src="https://www.reliancedigital.in/akamai/images/mobile/Login-banner.jpeg" alt="image">
+        </span>
+    <div id="form_div">
+        <form id="login">
+            <h5 id="first">
+                Login / Register
+            </h5>
+            
+            <div id="second">
+                <p id="verification"></p>
+                <p id="text"></p>
+                <p id="num"></p>
+                <input type="tel" placeholder="Enter Mobile Number" id="input" pattern="[0-9]{10}" required />
+                <div id="otp_input_div"></div>
+                <p id="mandatry"></p>
+                <input type="submit" value="PROCEED" id="btn" />
+                <input type="submit" value="LOGIN" id="login_btn" class="btn" />
+                <input type="submit" value="Back" id="back_btn" class="btn" />
+            </div>
+        </form>
+    </div>
+    </div>
+
+
+
+      <!-- footer -->
+      <footer>
+        <div id="cont1">
+            <div>
+               <h4>PRODUCT CATAGORIES</h4> 
+                <p>Smartphones</p>
+                <p>Laptops</p>
+                <p>DSLR Cameras</p>
+                <p>Televisions</p>
+                <p>Air conditioners</p>
+                <p>Refrigerators</p>
+                <p>Kitchen Appliances</p>
+                <p>Accessories</p>
+                <p>Personal Care & Grooming</p>
+            </div>
+            <div>
+               <h4>SITE INFO</h4> 
+               <p>About Reliance Digital</p>
+               <p>resQ Services</p>
+               <p>Site Map</p>
+               <p>Gift Cards</p>
+               <p>Corporate Enquires</p>
+               <p>Contact Us</p>
+            </div>
+            <div>
+                <h4>RESOURCE CENTER</h4>
+                <p>Product Reviews</p>
+                <p>Buying Guides</p>
+                <p>How Tos</p>
+                <p>Featured Stories</p>
+                <p>Event & Happenings</p>
+            </div>
+            <div>
+               <h4>POLICIES</h4>
+               <p>Terms of use</p>
+               <p>Cancellation and Retruns</p>
+               <p>Privacy Policy</p>
+               <p>E-waste Policy</p>
+               <p>EMI Terms and Conditions</p>
+               <p>Pricing and Payments Policy</p>
+               <p>Delivery & Shipping Policy</p>
+               <p>JioMart Maha Cashback T&C</p>
+            </div>
+        </div>
+        <div id="cont2">
+            <div>
+                <h4>FOLLOW US</h4>
+                <a href="https://www.facebook.com/reliancedigital/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE8IpEU3sOxQxNjMw3VAoSWsekRpvgOvjziQ&usqp=CAU" alt="fbError"></a>
+                <a href="https://twitter.com/RelianceDigital?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img src="https://icon2.cleanpng.com/20180511/duq/kisspng-computer-icons-social-media-icon-design-clip-art-5af5605b4e4213.2609152515260304273206.jpg" alt="twitterError"></a>
+                <a href="https://www.youtube.com/channel/UCH-56LcHuLM57TMKDV_fzag"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXWfS4_R3BcusSWAwY4xWC3qn2JKlqgRWY3Q&usqp=CAU" alt="YtError"></a>
+                </div>
+              
+            <div>
+                <h4>EXPERIENCE RELIANCE DIGITAL APP ON MOBILE</h4> 
+               <img src="https://www.reliancedigital.in/build/client/images/google_play_store.png" alt="playStore">
+               <img src="https://www.reliancedigital.in/build/client/images/ios_app_store_icon.png" alt="appStore">
+            </div>
+        </div>
+              <div id="cont3">
+                <p><u>Disclaimer</u></p>
+                <p>Product prices, offers and availability are subject to change from time to time. All prices are inclusive of taxes. Product colours & images are only for illustration and they may not exactly match with the actual product. Product specs are subject to change & may vary from actual product. While every care is taken to avoid inaccuracies in content, these are provided as is, without warranty of any kind.</p>
+                <hr>
+                <p>© 2023 Reliance Digital. All Rights Reserved.</p>
+              </div>
+    </footer>
+ </div>
+      
+</body>
+
+ 
+
+<script>
+    
+    let form = document.getElementById("login")
+    let num = document.getElementById("num")
+    let otp_submit = document.getElementById("otp_submit")
+    let input_num = document.getElementById("input");
+    
+   
+    
+// Proceed button on login
+    let btn = document.getElementById("btn")
+    let text = document.getElementById("text")
+    let verification = document.getElementById("verification")  
+    let proceed = document.getElementById("btn")
+    let mandatry = document.getElementById("mandatry")
+    proceed.addEventListener("click",(e)=>{
+        e.preventDefault();
+        let LSData = JSON.parse(localStorage.getItem("user")) || []
+    
+        if(form.input.value != "" && form.input.value.length == 10){
+            // let inputnum = num.value
+            // alert('jj')
+            let userData = {
+            number: form.input.value
+            }
+
+            LSData.push(userData)
+
+        localStorage.setItem("user_num",JSON.stringify(userData))
+
+        localStorage.setItem("user",JSON.stringify(LSData))
+        // localStorage.setItem("user",JSON.stringify(userData))
+        // file:///C:/Users/student/Desktop/Projects/puny-corn-6420/
+        window.location.href = "register.html"
+        
+        } else if(LSData.number == form.input.value){
+            verification.innerText = "OTP Verification"
+            text.innerText = `Please enter the OTP sent to your mobile number ${form.input.value}`
+            btn.style.width = "185px"
+            btn.style.display = "none"
+            back_btn.style.display = "flex"
+            login_btn.style.display = "flex"
+            input_num.style.display = "none"
+            alert("9987")
+            let input = document.createElement('input');
+                input.placeholder = 'Enter OTP*';
+                input.setAttribute("id","input_otp")
+                otp_input_div.append(input); 
+                document.getElementById("mySubmit").disabled = true;      
+            // num.innerText = form.input.value    
+            // input.style.color = "border:  1px solid #D32F2F"
+        } else {
+            mandatry.innerText ="Mandatory fields cannot be empty"
+        }
+
+    })
+
+
+// login button 
+    let login_btn = document.getElementById("login_btn")
+    login_btn.addEventListener("click",(e)=>{
+        e.preventDefault();
+        if(input_otp.value == "9987"){
+            window.location.href = "https://www.reliancedigital.in/login"
+        } else {
+            console.log(input_otp.value)
+        }
+    })
+
+
+// back button
+    let back_btn = document.getElementById("back_btn")
+    back_btn.addEventListener("click",(e)=>{
+        e.preventDefault();
+        btn.style.width = "369px"
+        btn.style.display = "block"
+        input_otp.style.display = "none"
+        input_num.style.display = "block"
+        input_num.value = null
+        back_btn.style.display = "none"
+        login_btn.style.display = "none"
+    })
+
+
+</script>
+</html>

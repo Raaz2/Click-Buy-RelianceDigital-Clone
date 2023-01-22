@@ -1,0 +1,505 @@
+{
+  "smartphone": [
+    {
+      "id": 1,
+      "title": "Apple iPhone 14 Plus 128 GB, Midnight",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177764-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMjk2OXxpbWFnZS9qcGVnfGltYWdlcy9oMjAvaDQ3Lzk4OTA1MjQ1OTQyMDYuanBnfDk1MTU1NGM0YjdkMzMzNDllOGRjODE2Njg2MTBmNGM0ZDdiODRjYjhhMGY0NDI4MzJmY2Y3ZTUwOTY1MzRkZWI",
+      "brand": "Apple",
+      "dealprice": "84,900.00",
+      "offerprice": "89,900.00",
+      "discount": "6%(₹5,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 16.95 cm (6.7 Inch) Super Retina XDR OLED display A15 Bionic chip, 6‑core CPU, 5‑core GPU, 16‑core Neural Engine "
+    },
+    {
+      "title": "Apple iPhone 13 128 GB, Blue",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-13-Smartphones-491997702-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1NTA2NXxpbWFnZS9qcGVnfGltYWdlcy9oZGIvaDUzLzk4NzgxMDI4MDI0NjIuanBnfDEzY2UxMTNmZjQ4MGM2MmRjY2U2NGNmZDJhNjhkZDM3YmJkOThhYjhkZWViMDJjNjYyZjQyZjYwYjM4NzAyZTA",
+      "brand": "Apple",
+      "dealprice": "64,900.00",
+      "offerprice": "69,900.00",
+      "discount": "7%(₹5,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "Super Retina XDR Display 5G Enabled Phone A15 Bionic Chip 15.4 cm (6.1 inch) all‑screen OLED Display ",
+      "id": 2
+    },
+    {
+      "title": "Apple iPhone 13 128 GB, Starlight",
+      "image": "https://www.reliancedigital.in/medias/Apple-MLPG3HN-A-SmartPhones-491997700-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0OTg0NXxpbWFnZS9qcGVnfGltYWdlcy9oYmMvaDFjLzk4NzgwODk5NTc0MDYuanBnfDNkNjA2MWQzMDAwZDU4NzVjNGQ0YWJkM2IzNGI4ZTAzODczYzY5NjYwZGEzZGMwMTE1YTUzNTEwYzFmNDZkMzE",
+      "brand": "Apple",
+      "dealprice": "64,900.00",
+      "offerprice": "69,900.00",
+      "discount": "7%(₹5,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "Super Retina XDR Display 5G Enabled Phone A15 Bionic Chip 15.4 cm (6.1 inch) all‑screen OLED Display ",
+      "id": 3
+    },
+    {
+      "title": "Apple iPhone 14 256 GB, Midnight",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177754-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMzEyOHxpbWFnZS9qcGVnfGltYWdlcy9oMDEvaDQwLzk4OTA0OTc2NTg5MTAuanBnfDJlMmQxOTUwYTVhODJkM2RjYWE3MDFkZWQ4NTgzYmYxNjZiODFmMzgzZGE5ZjNlN2UwOTk3OTcxZDZkZDk0OWU",
+      "brand": "Apple",
+      "dealprice": "84,900.00",
+      "offerprice": "89,900.00",
+      "discount": "6%(₹5,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "15.40 cm (6.1 inch) Super Retina XDR OLED Display 12 Main      +12 MP Ultra Wide Lens Rear Camera12 MP Selfie Camera, iOS 16 Operating System Rated IP68 Splash, Water and Dust Resistant ",
+      "id": 4
+    },
+    {
+      "title": "Apple iPhone 14 Plus 256 GB, Blue",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Plus-Mobile-Phone-493177772-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDIzNXxpbWFnZS9qcGVnfGltYWdlcy9oNzUvaDA3Lzk4OTA1NDc4NTk0ODYuanBnfDdmMGU2NGYyMDBjY2YyZjIyNjM1ODA5Y2MyZGZjNjlmMWYyODhlZGExYjMzN2YxYWU3NGI4ZGFhMTgwNWRmNDU",
+      "brand": "Apple",
+      "dealprice": "94,900.00",
+      "offerprice": "99,900.00",
+      "discount": "5%(₹5,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "16.95 cm (6.7 Inch) Super Retina XDR OLED display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, Fingerprint-resistant oleophobic coating Rated IP68 Splash, Water and Dust Resistant",
+      "id": 5
+    },
+    {
+      "title": "Apple iPhone 14 128 GB, Starlight",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177750-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDAxMHxpbWFnZS9qcGVnfGltYWdlcy9oMDIvaDkyLzk4OTA0ODU4NjI0MzAuanBnfDZjZWIyMDBkYWVjZDBkMDM5ZWY3MDVkZDIzNjE2YzQ2M2UyODAxYzVmMzZkODVjMjFhZDRkZDRkNWRmYTI2MmU",
+      "brand": "Apple",
+      "dealprice": "74,900.00",
+      "offerprice": "79,900.00",
+      "discount": "6%(₹5,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "15.40 cm (6.1 inch) Super Retina XDR OLED Display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, iOS 16 Operating System Rated IP68 Splash, Water and Dust Resistant",
+      "id": 6
+    },
+    {
+      "title": "Apple iPhone 13 128 GB, Midnight (Black)",
+      "image": "https://www.reliancedigital.in/medias/Apple-MLPF3HN-A-Smart-Phone-491997699-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0NjYzOHxpbWFnZS9qcGVnfGltYWdlcy9oMzgvaGE2Lzk4NzgwOTAyODUwODYuanBnfGVkNmFmZTBiOTBjYmFlZWRiZTk4YzRhMGU5NjA0ZmNmM2ZhYzRhYjEyZmY4MWY2ZTFhMzBkM2ZlOGM0Y2QzYTQ",
+      "brand": "Apple",
+      "dealprice": "64,900.00",
+      "offerprice": "69,900.00",
+      "discount": "7%(₹5,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "Super Retina XDR Display 5G Enabled Phone A15 Bionic Chip 15.4 cm (6.1 inch) all‑screen OLED Display",
+      "id": 7
+    },
+    {
+      "title": "Apple iPhone 14 256 GB, Blue",
+      "image": "https://www.reliancedigital.in/medias/Apple-iPhone-14-Mobile-Phone-493177757-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNDYyM3xpbWFnZS9qcGVnfGltYWdlcy9oZWYvaDMxLzk4OTA1MTQzNzA1OTAuanBnfDIyNDcwZDVlMzMzYzY5YTk1OTg1MmUyYWI2MzE5MWJiZmU0OGQ4YjMwMDFiYzNhNDI3ZmViNTU5NjBlNmQ5ZDc",
+      "brand": "Apple",
+      "dealprice": "84,900.00",
+      "offerprice": "89,900.00",
+      "discount": "6%(₹5,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "15.40 cm (6.1 inch) Super Retina XDR OLED Display 12 MP Main + 12 MP Ultra Wide Lens Rear Camera 12 MP Selfie Camera, iOS 16 Operating System Rated IP68 Splash, Water and Dust Resistant",
+      "id": 8
+    },
+    {
+      "title": "Samsung Galaxy Z Fold4 5G 256 GB, 12 GB RAM, Graygreen, Mobile Phone",
+      "image": "https://www.reliancedigital.in/medias/Samsung-Fold4-Mobile-Phone-493177484-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxNjE1NXxpbWFnZS9qcGVnfGltYWdlcy9oNzEvaGJmLzk4Nzc4MjgxNzM4NTQuanBnfDRjOWY3ZDcxYzhkN2RkZTQ3MDIwNjY1NjBhNWVjYzAxOGVjZGEyYWZhMzRlY2M1MWI1MTAzNTc5NWQyYzhlZjA",
+      "brand": "Samsung",
+      "dealprice": "1,54,999.00",
+      "offerprice": "1,77,999.00",
+      "discount": "13%(₹23,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "Main Screen: 19.30 cm (7.6 Inch) QXGA+ Dynamic AMOLED Cover Screen: 15.74 cm (6.2 Inch) HD+ Dynamic AMOLED Back Camera: 50 MP + 12 MP + 10 MP Triple Camera Cover Camera: 10 MP Cover Camera",
+      "id": 9
+    },
+    {
+      "title": "Samsung M13 5G 128 GB, 6 GB RAM, Stardust Brown, Mobile Phone",
+      "image": "https://www.reliancedigital.in/medias/Samsung-M13-Mobile-Phone-493178366-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMTU4NXxpbWFnZS9qcGVnfGltYWdlcy9oZGEvaGM4Lzk4OTk2MTUzMjIxNDIuanBnfGVhNWI5YzVmMjA2MzZlNTczYzY3Mjk1Y2M0YzU5ODE5YWQ0YWVmMGJlNGU2YmU4NjM1YzUwNmY1Nzk5OGI5NDI",
+      "brand": "Samsung",
+      "dealprice": "13,999.00",
+      "offerprice": "19,4999.00",
+      "discount": "28%(₹5,500)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "16.55 cm (6.5 inch) HD+ LCD 1600 x 700 Display 50 MP Main + 2 MP Primary Camera 5 MP Selfie Camera, 5000 mAh Battery Powerful MTK D700 Octa Core Processor",
+      "id": 10
+    },
+    {
+      "title": "Samsung S22 Plus 5G 128 GB, 8 GB RAM, Phantom White, Mobile Phone",
+      "image": "https://www.reliancedigital.in/medias/Samsung-Galaxy-S22-Plus-SmartPhone-492849208-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxNzk2NHxpbWFnZS9qcGVnfGltYWdlcy9oMTAvaDMyLzk3Nzk0OTc1MzM0NzAuanBnfGRmYzk0OGFiNGFjMDE4YTJhNTk2YmU5ZDA4YWE1NzZmMjZhYzBjYjFmZGJjZmU1ODlhMmEyYjZjZWIwNjk5YjI",
+      "brand": "Samsung",
+      "dealprice": "74,999.00",
+      "offerprice": "1,01,999.00",
+      "discount": "26%(₹27,500)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "Dynamic AMOLED 2X with Vision Booster 4 nm Octa Core Processor Corning Gorilla Glass Victus+ 8GB RAM and 128 GB Internal Memory",
+      "id": 11
+    },
+    {
+      "title": "Samsung Galaxy Z Series Flip3 5G 128 GB, 8 GB RAM, Cream, Mobile Phone",
+      "image": "https://www.reliancedigital.in/medias/Samsung-Galaxy-Z-Flip-3-Smartphone-491997491-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxOTQxNXxpbWFnZS9qcGVnfGltYWdlcy9oODIvaDBlLzk2MTc1MDE3NDkyNzguanBnfGZjMGQxZDAzMjY4NTU0MjZlNzJhYWY1MmEwNGYxOGFlN2JkYzZhNzIzZTFhODE0MzJmZTIxZjM4MDgxMDgwMjM",
+      "brand": "Samsung",
+      "dealprice": "69,999.00",
+      "offerprice": "84,999.00",
+      "discount": "18%(₹15,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "17.08 cm (6.7 inch) Full HD+ 2640 x 1080 Main Display 4.82cm (1.9 inch) Super AMOLED Cover display with 60Hz refresh rate Dynamic AMOLED 2X Main Display8 GB Memory, 128 GB Storage",
+      "id": 12
+    },
+    {
+      "title": "Realme C35 64 GB, 4 GB RAM, Glowing Black, Mobile Phone",
+      "image": "https://www.reliancedigital.in/medias/Realme-RMX3511-Mobile-Phone-492849560-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNzcyN3xpbWFnZS9qcGVnfGltYWdlcy9oZjkvaGQ0Lzk4MTY3OTcyODIzMzQuanBnfDQ0NzA5MTNhNWMzZmI3MmU4NDFlOWNjYTViYzA3NGRkM2EzMDEyMTdiNWY4YmQ0MGEyMmVjYjEwNzUwYjU3ZTA",
+      "brand": "Realme",
+      "dealprice": "11,999.00",
+      "offerprice": "14,999.00",
+      "discount": "20%(₹3,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "16.76 cm (6.6 inch)FHD Fullscreen Display 50 MP + 2 MP + 0.3 MP Primary Camera 8 MP Selfie Camera 5000mAh Massive Battery",
+      "id": 13
+    },
+    {
+      "title": "Realme 9i 5G 128 GB, 6 GB RAM, Metallica Gold, Mobile Phone",
+      "image": "https://www.reliancedigital.in/medias/Realme-9i-Smart-Phone-493177591-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0NjExNnxpbWFnZS9qcGVnfGltYWdlcy9oY2EvaGFhLzk5MDk3MzE5NTA2MjIuanBnfDUyMTliNDFkOWJlZjM5NzNmOTJlNGI1ODkzMDc1MGZmODc5OTBmNjQxZWEyZDU5YjY1NmY3NTYxOTQ0MWIwOTU",
+      "brand": "Realme",
+      "dealprice": "16,999.00",
+      "offerprice": "19,999.00",
+      "discount": "15%(₹3,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "Realme 9i 5G 128 GB, 6 GB RAM, Metallica Gold, Mobile Phone",
+      "id": 14
+    },
+    {
+      "title": "Xiaomi Redmi Note 12 Pro 5G 256 GB, 8 GB RAM, Frosted Blue, Mobile Phone",
+      "image": "https://www.reliancedigital.in/medias/Xiaomi-Note-12-Pro-Mobile-Phone-493664810-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzNTc5OXxpbWFnZS9qcGVnfGltYWdlcy9oZWUvaDFhLzk5NDIzNjIwMzAxMTAuanBnfGI0YWRlNDgzMzBlOGNkMDI5ODk3ZGZkMTAyODg2ZmVlZDVlMTYzMzI2YTY0MmM2MzEzMmNiZTIxY2U2NjY1MzA",
+      "brand": "Redmi",
+      "dealprice": "27,999.00",
+      "offerprice": "31,999.00",
+      "discount": "13%(₹4,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "Display: 16.94 cm (6.67 Inch) 120Hz Pro AMOLED Back Camera: 50 MP Main + 8 MP Ultra-Wide Angle + 2 MP Macro Front Camera: 16 MP Battery Capacity: 5000 mAh",
+      "id": 15
+    },
+    {
+      "title": "Redmi A1 Plus 32 GB, 3 GB RAM, Light Green Mobile Phone",
+      "image": "https://www.reliancedigital.in/medias/Xiaomi-A1-Smart-Phone-493178818-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MDIzNXxpbWFnZS9qcGVnfGltYWdlcy9oODEvaGNlLzk5MTE0NjYxMzE0ODYuanBnfDg5ZDI3MTM2MzkwMDkyMjQzYTZiNzZmZDM0ZWMzYzQyNWNjYjRhYWRhYzhjNTc4ODJjYWI5ZTRhNDU3MmMxYTk",
+      "brand": "Redmi",
+      "dealprice": "8,499.00",
+      "offerprice": "10,999.00",
+      "discount": "23%(₹2,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "16.56 cm (6.52 inch) HD+ Display 3 GB Memory, 32 GB Storage 8 MP Primary Camera 5 MP Front Camera",
+      "id": 16
+    }
+  ],
+  "smartTV": [
+    {
+      "title": "LG 165.1 cm (65 inch) Ultra HD (4K) LED Smart TV, UP77, 65UP7740PTZ",
+      "image": "https://www.reliancedigital.in/medias/LG-65UP7740PTZ-Television-492579188-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMDI0OTV8aW1hZ2UvanBlZ3xpbWFnZXMvaGQ4L2g4Yi85NzM1ODM1MTU2NTEwLmpwZ3xjMDJlYjA4YzBjOTc3NDlmMmMyYmRkZjVkMWM5Mjg5OTRmNTc3OTdmYzI3MDZmNWI3MDdiYmE2ZTJhMTFhOTNm",
+      "brand": "LG",
+      "dealprice": "82,990.00",
+      "offerprice": "1,29,999.00",
+      "discount": "36%(₹47,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "LG 165.1 cm (65 inch) Ultra HD (4K) LED Smart TV, UP77, 65UP7740PTZ",
+      "id": 1
+    },
+    {
+      "title": "Sony Bravia 80 cm (32 inches) HD Ready Smart LED Google TV with Dolby Audio",
+      "image": "https://www.reliancedigital.in/medias/Sony-KD-32W830K-IN5-Television-492912672-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMDgzOHxpbWFnZS9qcGVnfGltYWdlcy9oMzYvaDQ5Lzk4Mjg5NTY1Njk2MzAuanBnfDM5ODQ0OTQ1MGVjYjZkYThjN2VjNzJjNmZjY2U5MmE2YWU2N2IwZjNiODc3Njg4OWM4NTUzYjA0YjZiMzE3NmQ",
+      "brand": "LG",
+      "dealprice": "26,990.00",
+      "offerprice": "34,999.00",
+      "discount": "23%(₹7,910)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "LG 80 cm (32 inch) Ultra HD (4K) LED Smart TV, UP77, 65UP7740PTZ",
+      "id": 2
+    }
+    
+  ],
+  "audio": [
+    {
+      "title": "Sony MDR-XB450AP Wired Headphone, Blue",
+      "image": "https://www.reliancedigital.in/medias/491182129-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyOTM3MnxpbWFnZS9qcGVnfGltYWdlcy9oZDgvaDVlLzg5Mjc4NTMwMTkxNjYuanBnfDAwMjgxMWZlNGFhYTc0NmE0MDY4MjRjMTIzODU3N2Q4NmJlMDc2Yzc4YjAyMGNmZDNiZWQ0NjRmODZiMzBmZjc",
+      "brand": "Sony",
+      "dealprice": "5,990.00",
+      "offerprice": "9,999.00",
+      "discount": "34%(₹2,910)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "Easily adjustable cushioned headband for comfortable fit",
+      "id": 1
+    },
+    {
+      "title": "Apple Airpods Pro (2nd Gen) with MagSafe Charging Case, White",
+      "image": "https://www.reliancedigital.in/medias/Apple-Airpods-Pro-493177748-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyMDEzOXxpbWFnZS9qcGVnfGltYWdlcy9oMzQvaDFjLzk4OTA3NTEwMjEwODYuanBnfGEwYjAwMzA4NmMyOGZhMTFhY2NlOTRkMzJmNWI5NWNhMmJmMzZkNzBjZmUyMjFlOWNlNzE2ZDYwZDJlY2ZlOWM",
+      "brand": "Apple",
+      "dealprice": "26,990.00",
+      "offerprice": "29,999.00",
+      "discount": "10%(₹2,910)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "Easily adjustable cushioned inear for comfortable fit",
+      "id": 2
+    }
+  ],
+  "ac": [
+    {
+      "title": "Samsung 1.5 Ton 5 Star 5 in 1 Convertible Inverter Split AC,",
+      "image": "https://www.reliancedigital.in/medias/Samsung-AR18BYLZAUR-Split-Air-Conditioner-581026959-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMzEzM3xpbWFnZS9qcGVnfGltYWdlcy9oY2UvaDJmLzk4MTMxMjgzODA0NDYuanBnfDZiNDIwMGUzODlmMDAyNjkyNTYyNzA2MTIxN2FiM2M4M2ViZTk3ZTJlOThhNTFlMzJjNDQ0ZmYwMmQwMDkwNGE",
+      "brand": "Samsung",
+      "dealprice": "40,990.00",
+      "offerprice": "65,999.00",
+      "discount": "38%(₹24,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "1 Year PCB Warranty Convertible 5-in-1 Cooling Mode",
+      "id": 1
+    },
+    {
+      "title": "LG 1.5 Ton 5 Star AI 6 in 1 Super Convertible Smart WiFi Inverter Split AC,",
+      "image": "https://www.reliancedigital.in/medias/LG-PS-Q19GWZF-SPLITAIRCONS-581026758-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMTU4MXxpbWFnZS9qcGVnfGltYWdlcy9oNTAvaGU0Lzk3NjM1NDEyMjE0MDYuanBnfDgyOGVmZGUxMGU5NzA5NTAwOTQ2MzQ3Yjc2NDJmNWNhNTk1MzQ4MzA0ODBjMDZkYTM4ZGY3ZmE2ZjM4OWMxZmY",
+      "brand": "LG",
+      "dealprice": "47,999.00",
+      "offerprice": "77,499.00",
+      "discount": "38%(₹30,500)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "5 Years PCB Warranty 10 Years Compressor Warranty AI Dual Inverter AI Convertible 6-in-1 Cooling",
+      "id": 2
+    },
+    {
+      "title": "Haier 1.5 Ton 3 Star Triple Inverter+ Split AC, HSU18C-NBS3B (100 percent Copper, 50 Feet Airflow, Hyper PCB, Cools even at 60‚C Ambient Temperature,Self Clean technology)",
+      "image": "https://www.reliancedigital.in/medias/Haier-HSU18C-NBS3B-Split-Air-Conditioner-581026955-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMjQ4MnxpbWFnZS9qcGVnfGltYWdlcy9oY2QvaDcwLzk4MTY5ODgyODcwMDYuanBnfGIyMDUwY2ZjMGVmYzY2MmY2YzI2ZDJjYjllMmI3NTYzNzE5MzBhYTI2MWZlZjA2NTdhZjVmNTc4OTdlODAwZmE",
+      "brand": "Haier",
+      "dealprice": "34,999.00",
+      "offerprice": "65,499.00",
+      "discount": "47%(₹30,500)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "5 Years PCB Warranty 100% Copper",
+      "id": 3
+    },
+    {
+      "title": "LLOYD 1.5 Ton 5 Star Inverter Split AC, GLS18I5FWGEL (100 Percent",
+      "image": "https://www.reliancedigital.in/medias/LLOYD-GLS18I5FWGEL-Split-Air-Conditioner-581026910-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMjIzOXxpbWFnZS9qcGVnfGltYWdlcy9oMmQvaDM0Lzk4MjQzNjMxMTg2MjIuanBnfDExMzI3Nzc4NjlhZmE5OGEyMGZhYWFhZGM2NjQ1ZjNiMTBiYjRjNmI1Y2IwNzA1NDZjY2Q5ZDg4MTNjNjYyZTc",
+      "brand": "Lloyd",
+      "dealprice": "41,999.00",
+      "offerprice": "61,499.00",
+      "discount": "32%(₹20,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "Rapid Cooling - 18 degree C in 45 Sec",
+      "id": 4
+    }
+  ],
+  "laptop": [
+    {
+      "title": "HP 14s-dr3001TU Laptop (Intel Pentium Silver N6000/8 GB/256 GB SSD/UHD",
+      "image": "https://www.reliancedigital.in/medias/Hp-681Y7PA-ACJ-Laptop-493178767-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNjAxOXxpbWFnZS9qcGVnfGltYWdlcy9oYTQvaDU2Lzk5MjM5NDA2MTQxNzQuanBnfGEzZDE5OGQxNmY4M2FkMGUxODU2OTg4MDdkOTFkMmZlYmJmZjdiMDAzZTVhYzBiZmVmNThiMmYwYzhmMTkyNGI",
+      "brand": "HP",
+      "dealprice": "26,990.00",
+      "offerprice": "37,999.00",
+      "discount": "28%(₹10,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "Processor: Intel Pentium Silver N6000 RAM: 8 GB Internal Storage: 256 GB Storage Type: SSD",
+      "id": 1
+    },
+    {
+      "title": "Lenovo L2IN IdeaPad 3 Laptop (11th Gen Intel Core i3-1115G4 /8GB/256GB SSD/Intel UHD",
+      "image": "https://www.reliancedigital.in/medias/Lenovo-L2IN-Laptops-492574725-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2MTQ2NnxpbWFnZS9qcGVnfGltYWdlcy9oZmIvaGQyLzk3NDczMjk5NzQzMDIuanBnfDMxMDY2NDQ1MjE3ZDFjOTZiNjRmYTE0NTlhNmYzMWZmNGNjNjY3NzhkZjE2MTdlZTZmMzE2Yjc3NDBmNjYwMGU",
+      "brand": "Lenovo",
+      "dealprice": "35,999.00",
+      "offerprice": "59,499.00",
+      "discount": "40%(₹24,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "Intel Core i3-1115G4 Processor RAM: 8GB Internal storage: 256 GB Storage Type: SSD",
+      "id": 2
+    },
+    {
+      "title": "Acer One 14 Laptop (AMD Ryzen 5 3500U/16 GB/512 GB SSD/Radeon",
+      "image": "https://www.reliancedigital.in/medias/Acer-UN-431SI-155-Laptop-493178293-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzMzMzMHxpbWFnZS9qcGVnfGltYWdlcy9oN2MvaGI2Lzk5MDk4MTU1NzQ1NTguanBnfGM2N2Y3NTNmMTRiMTk1ZmViMzM4NmUwNmQ2ZjhjNmFmNDdkZTJjMTA1NjNiYzk5MjM4MGVhNzdmNWM2YmVhN2Y",
+      "brand": "Acer",
+      "dealprice": "39,999.00",
+      "offerprice": "59,499.00",
+      "discount": "33%(₹20,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "Processor: AMD Ryzen 5 3500U",
+      "id": 3
+    },
+    {
+      "title": "Asus HN113WS TUF Gaming A15 Gaming Laptop (AMD Ryzen 5",
+      "image": "https://www.reliancedigital.in/medias/Asus-FA506IHRZ-HN113WS-Laptop-493178258-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2NTQzOHxpbWFnZS9qcGVnfGltYWdlcy9oNDAvaDE0Lzk5MDQ4OTc5ODI0OTQuanBnfDNkMzU5ZWUwYWZlMDZhNzQ0NTg2MmZmYmI4ZDk0NGY3YjU2NmU5ZmUxZWU4ZTM2ZDQzN2UxMDE4OGI1NGI3MzQ",
+      "brand": "Asus",
+      "dealprice": "58,999.00",
+      "offerprice": "75,499.00",
+      "discount": "23%(₹15,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "Processor: AMD Ryzen 5 4600H",
+      "id": 4
+    },
+    {
+      "title": "Asus HN113WS TUF Gaming A15 Gaming Laptop (AMD Ryzen 5",
+      "image": "https://www.reliancedigital.in/medias/Dell-3511-Laptops-492850218-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w3NjE3NXxpbWFnZS9qcGVnfGltYWdlcy9oZTAvaDMxLzk4NDQ1Mzg2MDU1OTguanBnfGVhMTRhZTU3YjMzMTY5ODQyMzhlNDgxYzAwMThlYmRkMmMxYjU1OWY2ZDljNTdhNDI2YzZkZTgxOWJiNzliODk",
+      "brand": "Dell",
+      "dealprice": "66,999.00",
+      "offerprice": "79,499.00",
+      "discount": "15%(₹15,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "Processor: 11th Gen Intel Core i5-1135G7",
+      "id": 5
+    }
+  ],
+  "camera": [
+    {
+      "title": "Nikon D5600 DSLR Camera with AF-P 18-55 mm + AF-P 70-300 mm VR Kit",
+      "image": "https://www.reliancedigital.in/medias/Nikon-D5600-20DZ-491297413-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2ODM2MXxpbWFnZS9qcGVnfGltYWdlcy9oN2UvaGM5Lzg5NjMwNzAxMzIyNTQuanBnfGUwMWM4YjJhMTJhNjY2N2VlYWY3ZjFhZThmNjNiNmFhZDVjY2Q0MGI2YTI2NzIyODUxNDJmM2Q5ZmU2OGZiNzk",
+      "brand": "Nikon",
+      "dealprice": "49,990.00",
+      "offerprice": "66,999.00",
+      "discount": "25%(₹16,000)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "ISO range of 100-25600 39-point autofocus (AF) system DX-format CMOS image sensor EXPEED 4 image-processing engine Connect wirelessly to smart device Wi-Fi, Bluetooth or NFC",
+      "id": 1
+    },
+    {
+      "title": "Nikon D7500 DSLR Camera with AF-S DX NIKKOR 18-140mm f/3.5-5.6G ED V",
+      "image": "https://www.reliancedigital.in/medias/Nikon-VBK510UN-DSLR-Cameras-491431245-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMTQ5MnxpbWFnZS9qcGVnfGltYWdlcy9oZTEvaDFjLzkxMTcwMTgwNjI4NzguanBnfGFiNmIxMDdjOWEyZmQxM2ZjOGYyMGI3YTE3NTE3MzAyOWVhNGMwOWYyM2M3YTljMDQ4NDI1NjQwM2I3ZDVlNmM",
+      "brand": "Nikon",
+      "dealprice": "80,500.00",
+      "offerprice": "94,499.00",
+      "discount": "15%(₹15,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "ens Type: NIKKOR 18-140mm VR Lens",
+      "id": 2
+    },
+    {
+      "title": "Canon EOS 90D DSLR Camera with 18-135 mm Lens Kit",
+      "image": "https://www.reliancedigital.in/medias/Canon-EOS-90D-DSLR-Camera-491600445-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMzk4M3xpbWFnZS9qcGVnfGltYWdlcy9oMGIvaDcwLzkyMTY0NDg1Mjg0MTQuanBnfDgxNDU5NGU0NDcyNTM5NzI1YmM2ZDllYzM0OTI2NWM1NzU3YjE2MTU4NTEzNDQzNDg1OWQ5ZjM5YmFhODliZWE",
+      "brand": "Canon",
+      "dealprice": "1,24,500.00",
+      "offerprice": "1,27,499.00",
+      "discount": "2%(₹2,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "7.62cm (3 inch) LCD Monitor, Manual Focus, 7.5x Optical Zoom",
+      "id": 3
+    },
+    {
+      "title": "Nikon D850 DSLR Camera with 24-120 mm Lens Kit",
+      "image": "https://www.reliancedigital.in/medias/Nikon-D850-DSLR-Cameras-491362271-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1NTY0NXxpbWFnZS9qcGVnfGltYWdlcy9oOWMvaGQ4LzkwNjExMTU4NTQ4NzguanBnfDdhYjVhNmMxMmVhMGFkMzMyYWU1YjU3NzU2ODQ1NGRiZWZjY2QyYzVmOWM4N2FlZjRhMDVlMjYyNWM4ZjNlNjc",
+      "brand": "Nikon",
+      "dealprice": "2,62,500.00",
+      "offerprice": "2,71,499.00",
+      "discount": "3%(₹8,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "45.7 MP CMOS Sensor",
+      "id": 4
+    },
+    {
+      "title": "Nikon D780 DSLR Camera with 24-120 mm Lens Kit",
+      "image": "https://www.reliancedigital.in/medias/Nikon-D780-DSLR-Camera-with-24-120-mm-Lens-Kit-491630592-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMTQ0MHxpbWFnZS9qcGVnfGltYWdlcy9oYmQvaGZiLzkyNTE2NDU5NDc5MzQuanBnfGYyZjA4ODU0ZmM5NTU0MzQ4ZDI1YTNhYzhkMGFkNDY2YzZkN2U0ZTc5MGQzNGJlZGJiOTUyNWUxYmIyZWViNTM",
+      "brand": "Nikon",
+      "dealprice": "1,99,500.00",
+      "offerprice": "2,42,499.00",
+      "discount": "18%(₹42,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "Nikon F mount, Nikon FX format, CMOS Image sensor type",
+      "id": 5
+    },
+    {
+      "title": "Canon EOS 1500D DSLR Camera with 18-55 mm Lens Kit",
+      "image": "https://www.reliancedigital.in/medias/Canon-EOS-1500D-DSLR-491362608-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w4NDE4MnxpbWFnZS9qcGVnfGltYWdlcy9oNGMvaDE3Lzg5OTM0MDQyNTYyODYuanBnfGEyMzMzZWI0YzAxMjE2MDY1MWM5MjQ3Yzk5NWQwMjk3MzVjYWNhYzYwMmRhNzg0NTAzYTVlZWZlODQ1NzNkZTY",
+      "brand": "Canon",
+      "dealprice": "36,500.00",
+      "offerprice": "39,499.00",
+      "discount": "9%(₹4,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "9-point AF with 1 centre cross-type AF point",
+      "id": 6
+    },
+    {
+      "title": "Canon EOS 200D II DSLR Camera with 18-55 mm Lens Kit",
+      "image": "https://www.reliancedigital.in/medias/Canon-EOS-200D-II-DSLR-Camera-491431412-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w5NzUyfGltYWdlL2pwZWd8aW1hZ2VzL2hjMS9oYTkvOTEzODM4Mzg4MDIyMi5qcGd8Mjg1YjZlODNkZTg1OTkyNmEyY2M5OGM5NDZjODU1NGRhNjM3MzQ1YTZlMzdiMGY5YmE4ZTAwZGNiNDkxYTc3YQ",
+      "brand": "Canon",
+      "dealprice": "56,500.00",
+      "offerprice": "59,499.00",
+      "discount": "6%(₹4,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "Megapixel & Sensor Type: 24.1 MEGAPIXEL CMOS SENSOR, DUAL PIXEL AUTO FOCUS",
+      "id": 7
+    }
+  ],
+  "purifier": [
+    {
+      "title": "Eureka Forbes Aquaguard 5 Litres RO+UV Water Purifier, Royale with Tast",
+      "image": "https://www.reliancedigital.in/medias/Eureka-Forbes-Royale-Water-Purifiers-491903116-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0MzEzM3xpbWFnZS9qcGVnfGltYWdlcy9oYjcvaDQ2Lzk0MTY2MzkzNDg3NjYuanBnfDQ0Y2JmZjY2NjQ1Y2YzZjkzODFiZjhjNzUxMWQ0MjJjYjA4MWFlMzMxNjAxNGMzOGM0ZWUwYzZmYjcyNzk2N2Q",
+      "brand": "Eureka",
+      "dealprice": "22,990.00",
+      "offerprice": "24,499.00",
+      "discount": "6%(₹1,500)",
+      "tag": "OFFERS AVAILABLE",
+      "description": "8 Stage Purification",
+      "id": 1
+    },
+    {
+      "title": "Aquaguard 5.5 Litres RO + SS Water Purifier with Active Copper Technolog",
+      "image": "https://www.reliancedigital.in/medias/Aquaguard-Royale-Water-Purifiers-491903117-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wyNzMyN3xpbWFnZS9qcGVnfGltYWdlcy9oZGIvaDRjLzk1ODU4NDA3MTc4NTQuanBnfGMxZDdhMTNjNmZhNDYzN2EyNTFmZjlhM2Q5ZWEyMzRkZGUxMmQ3MzgwOWMxODBkNjEwNTg4NTYxNmEwNjI2ZDU",
+      "brand": "Aquaguard",
+      "dealprice": "19,500.00",
+      "offerprice": "24,499.00",
+      "discount": "18%(₹4,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "Patented Active Copper Technology",
+      "id": 2
+    },
+    {
+      "title": "LG 8 litres RO + UV + UF Water Purifier, WW184EPB with Mineral Booster, 2-in-",
+      "image": "https://www.reliancedigital.in/medias/LG-WW184EPB-Water-Purifiers-492284046-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wzOTMxNnxpbWFnZS9qcGVnfGltYWdlcy9oYTUvaDY4Lzk1OTM5OTc3ODcxNjYuanBnfDViMzQ2NGNlMzc1NDM5MzRlOWNmYzFiNTMzZWFmZDBlYzc4NDNhNmNkYTNhZWE0MWE1Y2QyYjM1NzkzNDEzYmY",
+      "brand": "LG",
+      "dealprice": "28,490.00",
+      "offerprice": "36,999.00",
+      "discount": "23%(₹8,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "LG 8 litres RO + UV + UF Water Purifier, WW184EPB with Mineral Booster, 2-in-",
+      "id": 3
+    },
+    {
+      "title": "Kent 9 Litres RO+UV+UF+TDS Water Purifier, ZWW Series Grand+ with Zero",
+      "image": "https://www.reliancedigital.in/medias/KENT-Water-Purifier-GRAND-PLUS-ZWW-MRO-11099-491891614-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxMjkwNjN8aW1hZ2UvanBlZ3xpbWFnZXMvaDM0L2g4My85MzIzMDgyODQyMTQyLmpwZ3wzYWI3NDdiMWNiYmU0MzczZTI5MWQ5NzE1YWRhYTIwYmY4YmMwM2ZiNDBlYzc0YzQzNThlMzgzN2UxMDZlNjg4",
+      "brand": "Kent",
+      "dealprice": "18,490.00",
+      "offerprice": "20,999.00",
+      "discount": "9%(₹1,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "RO+UV+UF+TDS Control+ UV disinfection Process",
+      "id": 4
+    },
+    {
+      "title": "Hindware Calisto 7 Litres RO+UV+UF Water Purifier with Smart LED",
+      "image": "https://www.reliancedigital.in/medias/hindware-calisto-Water-Purifier-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2MzU5fGltYWdlL2pwZWd8aW1hZ2VzL2g5MS9oN2IvOTc0NDQ0NzMwNzgwNi5qcGd8MzM4MWE0NzdmMzIwODQ1NDU3ODE0YTY1YjNlY2JlODYxNmFlZGUyYjFlYzRkODQ5YjkzMDZlNmQyYzQ2MjFmZA",
+      "brand": "Hindware",
+      "dealprice": "7,490.00",
+      "offerprice": "15,999.00",
+      "discount": "50%(₹7,000)",
+      "tag": "OFFERS AVAILABLE ",
+      "description": "Advanced 6 Stage RO+UV+UF Purification",
+      "id": 5
+    }
+  ],
+  "trimmers": [
+    {
+      "title": "Philips BT3102/15 cordless rechargeable Beard Trimmer - 10 length settings, 60 min run time",
+      "image": "https://www.reliancedigital.in/medias/Philips-BT3102-15-Shaver-and-Trimmers-491891822-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3wxOTE5NHxpbWFnZS9qcGVnfGltYWdlcy9oMjAvaDJmLzkzMzI2NjMxMjM5OTguanBnfDcwNDg1ZTA4OTg0MzllNzFjMDU3MDk2N2Q3NWJmMTUzZGE1MzZlOGNhY2VjZjllOTU3OTM2YjFkZDYzOGJkZWQ",
+      "brand": "Philips",
+      "dealprice": "1,249.00",
+      "offerprice": "14,499.00",
+      "discount": "16%(₹246)",
+      "tag": "BEST BUY",
+      "description": "1 mm Precision Settings",
+      "id": 1
+    },
+    {
+      "title": "Havells BT5111C Men's Beard Trimmer",
+      "image": "https://www.reliancedigital.in/medias/Havells-BT5111C-Shavers-and-Trimmers-491666344-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0NTk4fGltYWdlL2pwZWd8aW1hZ2VzL2g0ZC9oNDIvOTU5NTIxMzE4NTA1NC5qcGd8Y2Y4YmMxZWE4NDM0YmRmMDllZjEzZWRkOTkzMGI4MTFhNDE4NTQxMmU1MjBlMDkwYzhlYmYxMTExOWQ5NjgwYw",
+      "brand": "Hindware",
+      "dealprice": "899.00",
+      "offerprice": "1,395.00",
+      "discount": "36%(₹496)",
+      "tag": "LIMITED TIME OFFER ",
+      "description": "Washable Head, LED battery indicator",
+      "id": 2
+    }
+  ],
+  "accessories": [
+    {
+      "title": "Neopack 8BK15 Laptop Bag for 35.81 cm (14.1 inch) & 39.11 cm (15.4 inch)",
+      "image": "https://www.reliancedigital.in/medias/Neopack-8BK15-Bags-Cases-491211454-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w2NDc2fGltYWdlL2pwZWd8aW1hZ2VzL2g0Yi9oOGEvOTA0OTY1NTA4MzAzOC5qcGd8NmQwMDQxNDMwZGVlYzcwN2U3MWRkZTEyODQ4ZTgwMDY0NWFjMDc0YWM5ODg2ZmQyMmVjNjQ2YTQ0MTRmMWE5OQ",
+      "brand": "Philips",
+      "dealprice": "2,599.00",
+      "offerprice": "3,499.00",
+      "discount": "50%(₹2,500)",
+      "tag": "BEST BUY",
+      "description": "Quick access accessory pocket in the front",
+      "id": 1
+    }
+  ]
+}
