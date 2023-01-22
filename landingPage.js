@@ -84,3 +84,30 @@ $(document).ready(function(){
       $("#myCarousel3").carousel("next");
     });
   });
+
+
+  // carouselNew
+const gap=100;
+
+const carouselN=document.getElementById("carouselN"),
+ contentN=document.getElementById("contentN"),
+  next=document.getElementById("next"),
+  prev=document.getElementById("prev");
+
+next.addEventListener("click", e => {
+  carouselN.scrollBy(width + gap, 0);
+  if(carouselN.scrollWidth!==0) {
+    prev.style.display="flex";
+  }
+
+});
+prev.addEventListener("click", e => {
+  carouselN.scrollBy(-(width + gap), 0);
+
+  if(!contentN.scrollWidth-width-gap<=carouselN.scrollLeft + width) {
+    next.style.display="flex";
+  }
+});
+
+let width=carouselN.offsetWidth;
+window.addEventListener("resize", e => (width = carouselN.offsetWidth));
