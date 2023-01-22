@@ -1,3 +1,7 @@
+#Click & Buy
+##cloned version of Relaince Digital
+
+
 # puny-corn-6420
  //Qty. decreaseing button
     let dec=document.createElement('button')
