@@ -41,7 +41,7 @@ loginbtn.addEventListener('click', (e) => {
         email: iLemail.value,
         pass : iLpass.value
     }
-    iLbutton.addEventListener('clcik', (e) => {
+    iLbutton.addEventListener('clik', (e) => {
         e.preventDefault();
         span.innerText = loginObj.email;
         console.log('zsdd')
@@ -82,7 +82,7 @@ addProductBtn.addEventListener('click', (e) => {
         tag: aPtag.value,
         description: aPdescription.value
     }
-    aPbutton.addEventListener('clcik', (e) => {
+    aPbutton.addEventListener('click', (e) => {
         console.log(addProductObj)
     })
 })

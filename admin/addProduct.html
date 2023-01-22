@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #addcart {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        fieldset {
+            width: 50%;
+            height: 600px;
+            padding: 30px;
+        }
+
+        label,input {
+            margin-top: 3px;
+            display: inline-flex;
+            width: 100%;
+            padding: 3px;
+        }
+        fieldset>div{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Add New Product</h2>
+    <div id="addcart">
+        <fieldset>
+            <legend>Add New Product</legend>
+            <div> <label for="">Product Title: </label><input type="text" id="title"><br><br></div>
+            <div><label for="">Product Image URL: </label><input type="text" id="img"><br><br></div>
+            <div><label for="">Brand: </label><input type="text" id="brand"><br><br></div>
+            <div> <label for="">Deal Price: </label><input type="text" id="dealPrice"><br><br></div>
+            <div> <label for="">Offer Price: </label><input type="text" id="offerPrice"><br><br></div>
+            <div> <label for="">Discount: </label><input type="text" id="discount"><br><br></div>
+            <div> <label for="">Offer Tag: </label><input type="text" id="tag"><br><br></div>
+            <div> <label for="">Description: </label><input type="text" id="desc"></div>
+        </fieldset>
+    </div>
+</body>
+
+</html>

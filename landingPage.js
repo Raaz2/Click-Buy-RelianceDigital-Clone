@@ -84,3 +84,8 @@ $(document).ready(function(){
       $("#myCarousel3").carousel("next");
     });
   });
+
+
+  document.querySelector(".dropbtn").addEventListener("click",()=>{
+    console.log("I am clicked and i am drop btn")
+  })
