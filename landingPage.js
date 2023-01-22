@@ -85,7 +85,6 @@ $(document).ready(function(){
     });
   });
 
-
   // carouselNew
 const gap=100;
 
@@ -111,3 +110,4 @@ prev.addEventListener("click", e => {
 
 let width=carouselN.offsetWidth;
 window.addEventListener("resize", e => (width = carouselN.offsetWidth));
+
