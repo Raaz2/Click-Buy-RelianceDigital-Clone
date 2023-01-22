@@ -184,7 +184,7 @@
     let cartdata = JSON.parse(localStorage.getItem("cart")) || []
     let url = `http://localhost:3000/`
     async function fetchurl() {
-        let res = await fetch(`${url}smartphone`)
+        let res = await fetch(`${url}camera`)
         let out = await res.json()
         display(out)
     }
